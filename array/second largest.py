@@ -17,8 +17,8 @@ for i in range(len(arr1)):
         second = first
         first = arr1[i]
     elif arr1[i] > second and arr1[i] != first:
-       second = arr1[i]
+       second = arr1[i] 
 if second == -1:
     print("No second largest element")
 else:
-    print("Second largest element is:", second)       
+    print("Second largest element is:", second)        
