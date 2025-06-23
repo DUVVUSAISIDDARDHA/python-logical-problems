@@ -1,0 +1,12 @@
+text = " now  days esports is growing  high in india esports has good scope"
+print(text)
+print(text.upper())
+print(text.lower())
+words = text.split()
+print("the no of words:",len(words))
+print("days" in text)
+print(text.replace("now","Now"))
+print(text.strip())
+print(text.startswith(" now"))
+print(text.endswith("a"))
+print(text.count("esports"))
