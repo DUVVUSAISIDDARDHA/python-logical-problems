@@ -5,4 +5,4 @@ try:
     print(c)
 except Exception as e:
     print("unknown exeption",e) 
-    print("⚠️ This was a:", type(e).__name__)  
+      
